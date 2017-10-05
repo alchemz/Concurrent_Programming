@@ -27,9 +27,8 @@ void para_PrefixSum();
 int main()
 {
 	while(true){
-	cout << "enter n(-1 to quit) : " << endl;
+	cout << "enter n: " << endl;
 	cin >>n;
-	if(n==-1) return 0;
 	temp = pow(2,n);
 	para_PrefixSum();
 	seq_PrefixSum();
